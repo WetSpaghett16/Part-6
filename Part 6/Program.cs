@@ -101,9 +101,9 @@ namespace Part_6
         {
             Console.WriteLine("Question 3");
             Console.WriteLine("");
-            for (int i = 99; i >= 55; i--)
+            for (int d = 99; d >= 55; d--)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(d);
             }
         }
 
@@ -113,15 +113,15 @@ namespace Part_6
             int oddSum = 0;
             Console.WriteLine("Question 4");
             Console.WriteLine("");
-            for (int i = 20; i <= 40; i++)
+            for (int e = 20; e <= 40; e++)
             {
-                if (i % 2 == 0) 
+                if (e % 2 == 0) 
                 {
-                    evenSum += i;
+                    evenSum += e;
                 }
                 else  
                 {
-                    oddSum += i;
+                    oddSum += e;
                 }
             }
             Console.WriteLine($"Sum of odd numbers: {oddSum}");
@@ -131,9 +131,9 @@ namespace Part_6
         {
             
             int factorial = 1;
-            for (int i = 5; i >= 1; i--)
+            for (int f = 5; f >= 1; f--)
             {
-                factorial *= i;
+                factorial *= f;
             }
             Console.WriteLine($"5! = {factorial}");
         }
@@ -142,8 +142,8 @@ namespace Part_6
         {
             int numEven = 0;
             int input;
-            Console.WriteLine("Enter 5 integers and I will inform you of how many are even!");
-            for (int i = 0; i < 5; i++)
+            Console.WriteLine("Enter 5 integers, i'll tell you how many are even");
+            for (int g = 0; g < 5; g++)
             {
                 Console.WriteLine("Please enter an integer:");
                 while (!Int32.TryParse(Console.ReadLine(), out input))
@@ -168,7 +168,7 @@ namespace Part_6
                     Console.WriteLine("Invalid input, enter an integer:");
                 if (selection != 4)
                 {
-                    Console.WriteLine("Try again");
+                    Console.WriteLine("Good choice, but Try again");
                     Console.WriteLine("");
                 }
 
