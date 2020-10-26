@@ -54,7 +54,7 @@ namespace Part_6
                         WhileQuestion2();
                         break;
                     case 10:
-                        Console.WriteLine("Thanks for participating");
+                        Console.WriteLine("Thank you for participating");
                         break;
                     default:    
                         Console.WriteLine("Wrong Choice");
@@ -142,7 +142,7 @@ namespace Part_6
         {
             int numEven = 0;
             int input;
-            Console.WriteLine("Enter 5 integers, i'll tell you how many are even");
+            Console.WriteLine("Enter 5 integers, I'll tell you how many are even");
             for (int g = 0; g < 5; g++)
             {
                 Console.WriteLine("Please enter an integer:");
