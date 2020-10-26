@@ -13,15 +13,15 @@ namespace Part_6
                 Console.WriteLine("Loop Practice");
                 Console.WriteLine("");
                 Console.WriteLine("Please select an option:");
-                Console.WriteLine("1 - For Question 1");
-                Console.WriteLine("2 - For Question 2");
-                Console.WriteLine("3 - For Question 3");
-                Console.WriteLine("4 - For Question 4");
-                Console.WriteLine("5 - For Question 5");
-                Console.WriteLine("6 - For Question 6");
-                Console.WriteLine("7 - While Loop Question 1");
-                Console.WriteLine("8 - While Loop Question 2");
-                Console.WriteLine("10 - QUIT");
+                Console.WriteLine("Press 1 - For Question 1");
+                Console.WriteLine("Press 2 - For Question 2");
+                Console.WriteLine("Press 3 - For Question 3");
+                Console.WriteLine("Press 4 - For Question 4");
+                Console.WriteLine("Press 5 - For Question 5");
+                Console.WriteLine("Press 6 - For Question 6");
+                Console.WriteLine("Press 7 - While Loop Question 1");
+                Console.WriteLine("Press 8 - While Loop Question 2");
+                Console.WriteLine("Press 10 - QUIT");
                 while (!Int32.TryParse(Console.ReadLine(), out choice))
                     Console.WriteLine("Invalid selection, try again.");
 
